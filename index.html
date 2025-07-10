@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css
+    ">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Menu de navegacion -->
+    <div class="header-menu">
+        <h1 class="header-menu__titulo">Tienda de Motocicletas</h1>
+        <nav class="header-menu__navegacion">
+            <ul class="header-menu__lista">
+                <li class="header-menu__item"><a href="#home" class="header-menu__enlace">Inicio</a></li>
+                <li class="header-menu__item"><a href="#about" class="header-menu__enlace">Sobre Nosotros</a></li>
+                <li class="header-menu__item"><a href="#contact" class="header-menu__enlace">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+<!-- Componente notificacion o alerta -->
+    <div class="alerta__notificacion alerta__notificacion--estilos">
+        <h3 class="alerta__notificacion__titulo alerta__notificacion__titulo--estilos">NOTIFICACION:</h3>
+        <p class="alerta__notificacion__contenido alerta__notificacion__contenido--estilos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum provident suscipit voluptates eligendi facere necessitatibus. Voluptas nisi, eos iusto voluptatum asperiores inventore quisquam at omnis.</p>
+    </div>
+
+    <!-- Tarjeta de producto -->
+    <div class="tarjeta-producto">
+        <img src="imagenes/BMW S - 1000RR.jpg" alt="BMW S - 1000RR" class="tarjeta-producto__imagen">
+
+        <h2 class="tarjeta-producto__titulo">BMW S - 1000RR</h2>
+        <p class="tarjeta-producto__descripcion">La BMW S 1000RR es una motocicleta deportiva de alta gama, conocida por su potencia y tecnología avanzada. Con un motor de 999 cc, ofrece una experiencia de conducción emocionante y precisa.</p>
+        <p class="boton boton__precio--primario">$25,000</p>
+
+        <button class="boton boton__comprar--primario">Comprar</button>
+    </div>
+
+    <div class="tarjeta-producto">
+        <img src="imagenes/Yamaha YZF-R1.jpg" alt="Yamaha YZF-R1" class="tarjeta-producto__imagen">
+
+        <h2 class="tarjeta-producto__titulo">Yamaha YZF-R1</h2>
+        <p class="tarjeta-producto__descripcion">La Yamaha YZF-R1 es una motocicleta deportiva que combina tecnología de vanguardia con un diseño aerodinámico. Su motor de 998 cc ofrece un rendimiento excepcional en pista y carretera.</p>
+        <p class="boton boton__precio--primario">$20,000</p>
+
+        <button class="boton boton__comprar--primario">Comprar</button>
+    </div>
+
+    <!-- Componente formulario -->
+    <div class="tarjeta__formulario">
+        <form class="formulario">
+            <h2 class="formulario__titulo">Formulario de Contacto</h2>
+            <label for="nombre" class="formulario__etiqueta">Nombre:</label>
+            <input type="text" id="nombre" class="formulario__campo" required>
+            <label for="telefono" class="formulario__etiqueta">Teléfono:</label>
+            <input type="tel" id="telefono" class="formulario__campo" required>
+            <label for="email" class="formulario__etiqueta">Email:</label>
+            <input type="email" id="email" class="formulario__campo" required>
+            <label for="mensaje" class="formulario__etiqueta">Mensaje:</label>
+            <input type="text" id="mensaje" class="formulario__campo">
+            <button type="submit" class="formulario__boton formulario__boton--estilos">Enviar</button>
+            <p class="formulario__mensaje">Gracias por contactarnos, nos pondremos en contacto contigo lo antes posible.</p>
+        </form>
+    </div>
+    <!-- Componente lista de tareas -->
+    <div class="lista">
+        <h1 class="lista__titulo">Lista de tareas</h1>
+        <ul class="lista__menu">
+            <li class="lista__item">
+                <span class="lista__estado">Tarea 1: ¿Completada?</span>
+                <button class="lista__boton__si lista__boton__si--estilos">Si</button>
+                <button class="lista__boton__no lista__boton__no--estilos">No</button>
+            </li>
+            <li class="lista__item">
+                <span class="lista__estado">Tarea 2: ¿Completada?</span>
+                <button class="lista__boton__si lista__boton__si--estilos">Si</button>
+                <button class="lista__boton__no lista__boton__no--estilos">No</button>
+            </li>
+            <li class="lista__item">
+                <span class="lista__estado">Tarea 3: ¿Completada?</span>
+                <button class="lista__boton__si lista__boton__si--estilos">Si</button>
+                <button class="lista__boton__no lista__boton__no--estilos">No</button>
+            </li>
+        </ul>
+        <!-- Galeria -->
+    </div>
+            <h1 class="galeria__titulo">Galeria de imagenes</h1>
+        <div class="tarjeta-galeria">
+            
+        <img src="imagenes/BMW S - 1000RR.jpg" alt="BMW S - 1000RR" class="tarjeta-galeria__imagen">
+
+        <h2 class="tarjeta-galeria__titulo">BMW S - 1000RR</h2>
+    </div>
+
+    <div class="tarjeta-galeria">
+        <img src="imagenes/Yamaha YZF-R1.jpg" alt="Yamaha YZF-R1" class="tarjeta-galeria__imagen">
+
+        <h2 class="tarjeta-galeria__titulo">Yamaha YZF-R1</h2>
+    </div>
+    
+    <!-- Componente tabla de datos -->
+    <div class="tabla-datos">
+  <table class="tabla-datos__tabla">
+    <thead class="tabla-datos__encabezado">
+      <tr class="tabla-datos__fila">
+        <th class="tabla-datos__celda tabla-datos__celda--encabezado">ID</th>
+        <th class="tabla-datos__celda tabla-datos__celda--encabezado">Nombre</th>
+        <th class="tabla-datos__celda tabla-datos__celda--encabezado">Correo</th>
+        <th class="tabla-datos__celda tabla-datos__celda--encabezado">Estado</th>
+      </tr>
+    </thead>
+    <tbody class="tabla-datos__cuerpo">
+      <tr class="tabla-datos__fila tabla-datos__fila--par">
+        <td class="tabla-datos__celda">1</td>
+        <td class="tabla-datos__celda">Ana Torres</td>
+        <td class="tabla-datos__celda">ana@example.com</td>
+        <td class="tabla-datos__celda tabla-datos__celda--estado-activo">Activo</td>
+      </tr>
+      <tr class="tabla-datos__fila tabla-datos__fila--impar">
+        <td class="tabla-datos__celda">2</td>
+        <td class="tabla-datos__celda">Luis Pérez</td>
+        <td class="tabla-datos__celda">luis@example.com</td>
+        <td class="tabla-datos__celda tabla-datos__celda--estado-inactivo">Inactivo</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Componente pie de pagina -->
+
+<footer class="pie-pagina">
+  <div class="pie-pagina__contenedor">
+    <div class="pie-pagina__seccion pie-pagina__seccion--info">
+      <h4 class="pie-pagina__titulo">Sobre CimiBikes</h4>
+      <p class="pie-pagina__texto">
+        En CimiBikes ofrecemos motocicletas de alta calidad, repuestos originales y servicio técnico especializado.
+      </p>
+    </div>
+
+    <div class="pie-pagina__seccion pie-pagina__seccion--enlaces">
+      <h4 class="pie-pagina__titulo">Enlaces rápidos</h4>
+      <ul class="pie-pagina__lista">
+        <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Modelos</a></li>
+        <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Accesorios</a></li>
+        <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Servicio técnico</a></li>
+        <li class="pie-pagina__item"><a class="pie-pagina__enlace" href="#">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="pie-pagina__seccion pie-pagina__seccion--redes">
+      <h4 class="pie-pagina__titulo">Síguenos</h4>
+      <div class="pie-pagina__redes">
+        <a class="pie-pagina__icono" href="#" title="Facebook">📘</a>
+        <a class="pie-pagina__icono" href="#" title="Instagram">📸</a>
+        <a class="pie-pagina__icono" href="#" title="YouTube">▶️</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pie-pagina__creditos">
+    <p class="pie-pagina__texto">© 2025 CimiBikes. Pasión por las dos ruedas.</p>
+  </div>
+</footer>
+
+    
+</body>
+</html>
